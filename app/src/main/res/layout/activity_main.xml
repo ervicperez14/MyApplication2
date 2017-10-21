@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nexura.mac.ervic.webservice.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/sube"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Subir Datos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+
+ />
+
+        <Button
+            android:id="@+id/muestra"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Obtener Datos"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            />
+        <Button
+            android:id="@+id/base"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Base Local"
+            android:textColor="@color/colorAccent"
+            android:background="@color/text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"
+
+            />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
